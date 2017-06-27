@@ -12,7 +12,7 @@ import java.sql.SQLException;
 public class Conexao {    
     private static Connection connection;    
     private static String url = "jdbc:oracle:thin:@192.168.60.15:1521:ORCL";
-    private static String usuario = "OPS$RM74632";
+    private static String usuario = "RM74632";
     private static String senha = "241296";
     
     public static Connection getConnection() {
